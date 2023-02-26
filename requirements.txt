@@ -1,0 +1,5 @@
+Flask
+gunicorn
+catboost
+pandas
+requests<2.11.0
