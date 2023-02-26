@@ -67,8 +67,8 @@ class easy_parameter_finders:
 
     def dump_all_data(self, coordinates):
         dump = {
-        "#### climate ####":(self.get_weather_params((7.196450,9.048933), all=True)),
-        "#### Soil ####": json.loads(self.get_parameters((7.196450,9.048933), all=True)),
+        "#### climate ####":(self.get_weather_params(coordinates, all=True)),
+        "#### Soil ####": json.loads(self.get_parameters(coordinates, all=True)),
         "#### Description ####": "The climate data is pulled from open weather maps API, the soil data is a local data base which is still growing, we may have altered your location slightly to the closest location in the database while trying to pull up soil data for you."
 }
         return dump

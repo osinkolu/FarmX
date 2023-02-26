@@ -40,7 +40,10 @@ def easy_predict():
     coordinates = (data['lat'], data['lon'])
     print(coordinates)
     easy = easy_parameter_finders()
-    raw_data = easy.collate_data(coordinates)
+    try:
+        raw_data = easy.collate_data(coordinates)
+    except Exception:
+        return("Your location is very far from all the locations on the database")
     return (classify(raw_data))
 
 @app.route("/data_dump", methods=["GET", "POST"])
