@@ -26,8 +26,6 @@ app = Flask(__name__)
 def index():
     return("Welcome, please smile more")
 
-@app.route("/help_me", methods=["GET", "POST"])
-
 def help_me(raw_data):
     try:
         main_word, language, usecase = raw_data["main_word"], raw_data["language"], raw_data["usecase"]
