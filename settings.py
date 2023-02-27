@@ -48,6 +48,6 @@ class model_influencer:
             self.demo1 = "tempDir/weed_test_01.jpg"
             self.demo2 = "tempDir/weed_test_02.jpg"
             self.demo3 = "tempDir/weed_test_03.jpg"
-            self.string1 = ""
+            self.string1 = "what are agricultural "
             self.string2 = "Some advice on removing "
             self.string3 = "how to remove "
