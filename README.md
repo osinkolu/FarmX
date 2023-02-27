@@ -6,6 +6,14 @@ The crop analysis API is built to perfrom detections on an image based on the se
 ## Tutorial
 Tutorial on how to use the API is coming soon, however, it is a simple to use API.
 
+## Technologies
+
+1. Google Cloud Platform - Hosts deployment
+2. Google Colab - Trained the model
+3. Google Search - Helps with Top results on the label and more details regards curing.
+4. Google Translate - Helps return all data in selected language.
+5. Tensorflow by Google  - Finetuned model is the Efficientdet4 from the tensorflow hub.
+
 ## Support
 For API support, please reach out on [LinkedIn](https://www.linkedin.com/in/olufemi-victor-tolulope/) or [Twitter](https://twitter.com/Osinkoluolufemi).
 
@@ -72,7 +80,7 @@ The response is very basic, there are two major end points in this project.
 - The topic of the next description
 - The next description itself.
 
-We provide all these as the topics and descriptions change based on the model in use. Below are examples of responses.
+We provide all these as the topics and descriptions change based on the **model in use** and the **language selected**. Below are examples of responses.
 
 * Usecase set to crop_disease
 
