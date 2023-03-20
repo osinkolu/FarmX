@@ -6,4 +6,4 @@ def classify(raw_data):
     model=pickle.load(open("models/catboost_model.pkl","rb"))
     prediction=model.predict(data).tolist()
     prediction = [i[0] for i in prediction]
-    return(json.dumps(prediction))
+    return(prediction)

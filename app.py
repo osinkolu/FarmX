@@ -32,7 +32,7 @@ def index():
 @app.route("/predict", methods=["GET", "POST"])
 def predict():
     raw_data = request.get_json(force=True)
-    return (classify(raw_data))
+    return json.dumps(classify(raw_data))
 
 @app.route("/easy_predict", methods=["GET", "POST"])
 def easy_predict():
@@ -43,8 +43,10 @@ def easy_predict():
     try:
         raw_data = easy.collate_data(coordinates)
     except Exception:
-        return("Your location is very far from all the locations on the database")
-    return (classify(raw_data))
+        easy_predict_response = {"status": bool(0),"data": ["Your location is very far from all the locations on the database"]}
+        return(easy_predict_response)
+    easy_predict_response = {"status": bool(1),"data": classify(raw_data)}
+    return (easy_predict_response)
 
 @app.route("/data_dump", methods=["GET", "POST"])
 def data_dump():
