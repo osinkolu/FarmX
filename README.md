@@ -23,7 +23,7 @@ Accesss to the API is granted freely, there is no authentication put in place cu
 
 ``` POST
     requests.post(
-        url, files=my_img_location, headers = {
+        url, files={'image': open('image.JPG', 'rb')}, headers = {
             'threshold': '0.5',
             'usecase': 'crop_disease',
             'language': 'en'
