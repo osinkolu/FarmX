@@ -154,7 +154,7 @@ returns a heavy json dump of all the data tracked at the backend.
 There will be subsequent versions of this API as frameworks change, models update, use cases expand and as it gets better. However, the API version you wish to access in the format `v{version_number}`
 
 Currently version 1 of the API (most current) is accessible via:
-[this link](https://agrobotfarms-crop-rec-api-v1.azurewebsites.net/predict)
+[this link](https://croprecommendation-zc6ytsujkq-uw.a.run.app/)
 
 ## HTTP requests
 All API requests are made by sending a secure HTTPS request using one of the following methods, depending on the action being taken:
