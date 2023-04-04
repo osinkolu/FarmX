@@ -38,9 +38,9 @@ This project was developed by Team FarmX for the 2023 Google Solution Challenge.
 
 ## Images from the Live Application.
 
-![Crop Recommendation System](readme_images/crop recommender.jpeg)
-
 ![Crop Disease Setup](readme_images/crop-disease-setup.jpeg)
+
+![Crop Recommendation System](readme_images/crop%20recommender.jpeg)
 
 ![Crop Disease Septoria Leaf Spot](readme_images/crop-disease-corn.jpeg)
 
