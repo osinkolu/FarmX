@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:orientation="vertical"
+    android:textDirection="locale">
+
+  <!-- LINT.IfChange -->
+  <LinearLayout
+      android:id="@+id/places_autocomplete_search_bar_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/colorPrimary"
+      android:minHeight="?attr/actionBarSize"
+      android:orientation="horizontal">
+
+    <include layout="@layout/places_autocomplete_impl_search_bar"/>
+
+  </LinearLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="4dp"
+      android:background="@drawable/places_autocomplete_toolbar_shadow"/>
+
+  <!-- Separator line below the search bar -->
+  <View
+      android:id="@+id/places_autocomplete_search_bar_separator"
+      android:layout_width="0dp"
+      android:layout_height="0dp"/>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/places_autocomplete_list"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:layout_marginStart="@dimen/places_autocomplete_search_bar_margin"
+      android:cacheColorHint="@android:color/white"/>
+
+  <include layout="@layout/places_autocomplete_impl_error"/>
+
+  <include layout="@layout/places_autocomplete_impl_powered_by_google"/>
+  <!-- LINT.ThenChange(places_autocomplete_impl_fragment_overlay.xml) -->
+
+</LinearLayout>

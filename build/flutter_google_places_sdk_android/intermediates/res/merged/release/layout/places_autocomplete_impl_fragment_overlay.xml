@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+CardViews don't seem to support padding, so we need an extra FrameLayout.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/places_autocomplete_overlay_padding">
+
+    <!-- LINT.IfChange -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/places_autocomplete_search_bar_padding"
+        android:paddingEnd="@dimen/places_autocomplete_search_bar_padding"
+        android:paddingLeft="@dimen/places_autocomplete_search_bar_padding"
+        android:paddingRight="@dimen/places_autocomplete_search_bar_padding"
+        android:layoutDirection="locale"
+        android:orientation="vertical"
+        android:textDirection="locale">
+
+      <LinearLayout
+          android:id="@+id/places_autocomplete_search_bar_container"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+        <include layout="@layout/places_autocomplete_impl_search_bar"/>
+
+      </LinearLayout>
+
+      <!-- Separator line below the search bar -->
+      <View
+          android:id="@+id/places_autocomplete_search_bar_separator"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginTop="2dp"
+          android:layout_marginBottom="1dp"
+          android:background="@color/places_autocomplete_separator"/>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/places_autocomplete_list"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:layout_marginStart="@dimen/places_autocomplete_search_bar_margin"
+          android:background="@android:color/white"
+          android:cacheColorHint="@android:color/white"/>
+
+      <include layout="@layout/places_autocomplete_impl_error"/>
+
+      <include layout="@layout/places_autocomplete_impl_powered_by_google"/>
+
+    </LinearLayout>
+    <!-- LINT.ThenChange(places_autocomplete_impl_fragment_fullscreen.xml) -->
+
+  </androidx.cardview.widget.CardView>
+
+</FrameLayout>

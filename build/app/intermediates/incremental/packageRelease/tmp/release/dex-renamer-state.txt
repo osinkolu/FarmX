@@ -1,0 +1,4 @@
+#Wed Mar 29 23:12:48 WAT 2023
+base.0=/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

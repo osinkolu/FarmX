@@ -1,7 +1,9 @@
-# FarmX
-This repository contains Team FarmX's solution for the Google Solution Challenge 2023.
+# FarmX Mobile App
 
-The projects and APIs are in the respective branches.
+Developed with Flutter and Getx State-Management system.
 
-* Crop Recommendation
-* Crop Analysis
+## Getting Started
+
+Replace "API-Key" in /env  with your Google Cloud API key... and Enjoy.
+
+

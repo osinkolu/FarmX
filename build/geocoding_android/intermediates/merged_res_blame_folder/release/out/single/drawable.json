@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/geocoding_android/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/geocoding_android/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/geocoding_android/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/geocoding_android/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

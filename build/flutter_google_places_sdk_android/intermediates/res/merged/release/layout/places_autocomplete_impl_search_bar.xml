@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageButton
+      android:id="@+id/places_autocomplete_back_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_gravity="center_vertical"
+      android:padding="@dimen/places_autocomplete_search_bar_button_padding"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/places_cancel"
+      android:src="@drawable/quantum_ic_arrow_back_grey600_24"/>
+
+  <EditText
+      android:id="@+id/places_autocomplete_search_bar"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:background="@android:color/transparent"
+      android:hint="@string/places_autocomplete_search_hint"
+      android:imeOptions="flagNoExtractUi|actionSearch"
+      android:inputType="textNoSuggestions"
+      android:lines="1"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:textColor="@color/places_autocomplete_search_text"
+      android:textColorHint="@color/places_autocomplete_search_hint"
+      android:textCursorDrawable="@null"
+      android:textSize="20sp"/>
+
+  <ImageButton
+      android:id="@+id/places_autocomplete_clear_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:padding="@dimen/places_autocomplete_search_bar_button_padding"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:contentDescription="@string/places_autocomplete_clear_button"
+      android:src="@drawable/quantum_ic_clear_grey600_24"/>
+
+</merge>

@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/flutter_google_places_sdk_android/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/anim/abc_slide_in_bottom.xml"
+    }
+]

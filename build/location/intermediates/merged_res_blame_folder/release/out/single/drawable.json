@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/648cda13f388d2bab13d5425033ea063/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/nimi/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/main/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/location/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/nimi/.gradle/caches/transforms-3/9ac3f52d1fec9e0106c8fce92a31ced5/transformed/jetified-play-services-base-16.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    }
+]

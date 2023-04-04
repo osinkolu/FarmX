@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nimi/development/https---github.com-Paulooh007-AgroConnect/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "map": [
+                {
+                    "source": "/Users/nimi/.gradle/caches/transforms-3/0f175954c68a9259a8f300b9ec91181a/transformed/jetified-play-services-base-18.1.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "197,299,475,601,706,873,1002,1119,1228,1419,1527,1708,1840,1996,2171,2240,2300",
+                        "endColumns": "101,175,125,104,166,128,116,108,190,107,180,131,155,174,68,59,79",
+                        "endOffsets": "298,474,600,705,872,1001,1118,1227,1418,1526,1707,1839,1995,2170,2239,2299,2379"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2879,2985,3165,3295,3404,3575,3708,3829,4103,4298,4410,4595,4731,4891,5070,5143,5207",
+                        "endColumns": "105,179,129,108,170,132,120,112,194,111,184,135,159,178,72,63,83",
+                        "endOffsets": "2980,3160,3290,3399,3570,3703,3824,3937,4293,4405,4590,4726,4886,5065,5138,5202,5286"
+                    }
+                },
+                {
+                    "source": "/Users/nimi/.gradle/caches/transforms-3/f0b38afda5e5c80c29a80fb8b625de2e/transformed/jetified-play-services-basement-18.1.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "156",
+                        "endOffsets": "355"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3942",
+                        "endColumns": "160",
+                        "endOffsets": "4098"
+                    }
+                },
+                {
+                    "source": "/Users/nimi/.gradle/caches/transforms-3/c55696d3bae729e436aea4999bf37cd5/transformed/appcompat-1.0.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1029,1122,1221,1316,1417,1510,1603,1698,1789,1880,1976,2086,2198,2301,2412,2519,2621,2780,2879",
+                        "endColumns": "110,114,110,86,115,129,82,79,90,92,98,94,100,92,92,94,90,90,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1024,1117,1216,1311,1412,1505,1598,1693,1784,1875,1971,2081,2193,2296,2407,2514,2616,2775,2874,2960"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,529,645,775,858,938,1029,1122,1221,1316,1417,1510,1603,1698,1789,1880,1976,2086,2198,2301,2412,2519,2621,2780,5882",
+                        "endColumns": "110,114,110,86,115,129,82,79,90,92,98,94,100,92,92,94,90,90,95,109,111,102,110,106,101,158,98,85",
+                        "endOffsets": "211,326,437,524,640,770,853,933,1024,1117,1216,1311,1412,1505,1598,1693,1784,1875,1971,2081,2193,2296,2407,2514,2616,2775,2874,5963"
+                    }
+                },
+                {
+                    "source": "/Users/nimi/.gradle/caches/transforms-3/ec4c55cf8b6a9bdf9da512a31aff62b9/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "5968",
+                        "endColumns": "100",
+                        "endOffsets": "6064"
+                    }
+                },
+                {
+                    "source": "/Users/nimi/.gradle/caches/transforms-3/c22c01154e35eae20b728ee3f5076cd1/transformed/jetified-places-2.5.0/res/values-fr-rCA/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "0,0,0,0,0,0,0,0",
+                        "startOffsets": "188,266,332,422,489,535,602,696",
+                        "endColumns": "77,65,89,66,45,66,93,50",
+                        "endOffsets": "265,331,421,488,534,601,695,746"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5291,5373,5443,5537,5608,5658,5729,5827",
+                        "endColumns": "81,69,93,70,49,70,97,54",
+                        "endOffsets": "5368,5438,5532,5603,5653,5724,5822,5877"
+                    }
+                }
+            ]
+        }
+    ]
+}
