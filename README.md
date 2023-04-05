@@ -1,4 +1,4 @@
-# FarmX
+# FarmX.
 FarmX is an open-source project developed for the 2023 Google Solution Challenge. It is a comprehensive solution that leverages machine learning and mobile technology to help farmers make data-driven decisions and optimize their farming operations.
 
 ## Project Structure
