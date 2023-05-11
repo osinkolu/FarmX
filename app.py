@@ -26,7 +26,7 @@ from models.classifier import classify
 from easy_predict_helper import easy_parameter_finders
 
 app = Flask(__name__)
-cors = CORS(app)
+cors = CORS(app) #Allow Cross Origin
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/')
