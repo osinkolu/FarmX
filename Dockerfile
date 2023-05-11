@@ -1,6 +1,7 @@
 FROM python:3.8.12-slim
 
 RUN pip install pipenv
+RUN pip install flask_cors
 
 WORKDIR /app
 COPY ["Pipfile", "Pipfile.lock","./"]
