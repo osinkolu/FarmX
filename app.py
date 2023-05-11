@@ -26,16 +26,22 @@ from models.classifier import classify
 from easy_predict_helper import easy_parameter_finders
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 @app.route('/')
+@cross_origin()
 def index():
     return("Welcome, please smile more")
 
 @app.route("/predict", methods=["GET", "POST"])
+@cross_origin()
 def predict():
     raw_data = request.get_json(force=True)
     return json.dumps(classify(raw_data))
 
 @app.route("/easy_predict", methods=["GET", "POST"])
+@cross_origin()
 def easy_predict():
     data = request.get_json(force=True)
     coordinates = (data['lat'], data['lon'])
@@ -50,6 +56,7 @@ def easy_predict():
     return (easy_predict_response)
 
 @app.route("/data_dump", methods=["GET", "POST"])
+@cross_origin()
 def data_dump():
     data = request.get_json(force=True)
     coordinates = (data['lat'], data['lon'])
