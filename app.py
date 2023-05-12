@@ -22,16 +22,6 @@ from settings import model_influencer
 from search_and_translate import search_and_translate, translate_alone
 
 
-app = Flask(__name__)
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
-
-
-@app.route('/')
-@cross_origin() #Allow Cross Origin
-def index():
-    return("Welcome, please smile more")
-
 def help_me(raw_data):
     try:
         main_word, language, usecase = raw_data["main_word"], raw_data["language"], raw_data["usecase"]
@@ -63,6 +53,18 @@ def help_me(raw_data):
         "topic_description": third_text
     }
     return reply
+
+
+app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
+
+@app.route('/')
+@cross_origin() #Allow Cross Origin
+def index():
+    return("Welcome, please smile more")
+
 
 @app.route("/predict", methods=['GET', 'POST'])
 @cross_origin()
