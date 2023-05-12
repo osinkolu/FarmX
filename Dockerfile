@@ -13,6 +13,7 @@ RUN pip install google-search-results
 RUN pip install tensorflow-cpu
 RUN pip install gunicorn
 RUN pip install requests
+RUN pip install flask_cors
 
 COPY ["model zoo/chicken.tflite","model zoo/crop_disease.tflite","model zoo/fruits_harvest.tflite", "model zoo/weeds.tflite","./model zoo/"]
 
