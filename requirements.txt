@@ -6,3 +6,4 @@ google-search-results
 tensorflow-cpu
 gunicorn
 requests
+flask_cors
