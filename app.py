@@ -56,7 +56,7 @@ def help_me(raw_data):
 
 
 app = Flask(__name__)
-cors = CORS(app)
+cors = CORS(app, allow_headers=['Content-Type', 'threshold', 'language', 'usecase'])
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
@@ -76,11 +76,11 @@ def predict(called_me=True):
     except Exception:
         return("Could not read any file")
     try:
-        thresh = float(request.get_json(force=True)["threshold"])
+        thresh = float(request.headers["threshold"])
     except Exception:
         return("Could not read threshold from header")
     try:
-        model_name = str(request.get_json(force=True)["usecase"])
+        model_name = str(request.headers["usecase"])
     except:
         return("Use case could not be read")
 
@@ -126,8 +126,8 @@ def predict(called_me=True):
 @cross_origin()
 
 def analyze():
-    language = request.get_json(force=True)["language"]
-    usecase = request.get_json(force=True)["usecase"]
+    language = request.headers["language"]
+    usecase = request.headers["usecase"]
 
     main_data = predict(called_me=False)
 
