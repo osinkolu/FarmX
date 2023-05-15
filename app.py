@@ -21,8 +21,6 @@ from object_detection_helper import ObjectDetectorOptions, ObjectDetector, visua
 from settings import model_influencer
 from search_and_translate import search_and_translate, translate_alone
 
-# import error handling file from where you have defined it
-from . import errors
 
 def help_me(raw_data):
     try:
@@ -59,7 +57,7 @@ def help_me(raw_data):
 
 app = Flask(__name__)
 cors = CORS(app)
-errors.init_handler(app) # initialise error handling 
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route("/")
