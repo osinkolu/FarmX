@@ -2,7 +2,7 @@ FROM python:3.9.16-slim
 
 WORKDIR /app
 
-COPY ["requirements.txt", "app.py","object_detection_helper.py","search_and_translate.py","settings.py","./"]
+COPY ["errors.py","requirements.txt", "app.py","object_detection_helper.py","search_and_translate.py","settings.py","./"]
 
 
 RUN pip install googletrans==4.0.0-rc1
