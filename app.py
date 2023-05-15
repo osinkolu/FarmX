@@ -76,11 +76,11 @@ def predict(called_me=True):
     except Exception:
         return("Could not read any file")
     try:
-        thresh = float(request.form.get("threshold"))
+        thresh = float(request.get_json(force=True)["threshold"])
     except Exception:
         return("Could not read threshold from header")
     try:
-        model_name = str(request.form.get("usecase"))
+        model_name = str(request.get_json(force=True)["usecase"])
     except:
         return("Use case could not be read")
 
@@ -126,8 +126,8 @@ def predict(called_me=True):
 @cross_origin()
 
 def analyze():
-    language = request.form.get("language")
-    usecase = request.form.get("usecase")
+    language = request.get_json(force=True)["language"]
+    usecase = request.get_json(force=True)["usecase"]
 
     main_data = predict(called_me=False)
 
