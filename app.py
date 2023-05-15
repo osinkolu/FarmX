@@ -14,13 +14,15 @@
 """
 
 from flask import Flask,request, jsonify
-#from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 from object_detection_helper import ObjectDetectorOptions, ObjectDetector, visualization_params, Image, np #import everything from object detection 
 
 
 from settings import model_influencer
 from search_and_translate import search_and_translate, translate_alone
 
+# import error handling file from where you have defined it
+from . import errors
 
 def help_me(raw_data):
     try:
@@ -56,19 +58,19 @@ def help_me(raw_data):
 
 
 app = Flask(__name__)
-#cors = CORS(app)
-#app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
+errors.init_handler(app) # initialise error handling 
 
 
-@app.route('/')
-#@cross_origin() #Allow Cross Origin
+@app.route("/")
+@cross_origin() #Allow Cross Origin
 
 def index():
     return("Welcome, please smile more")
 
 
 @app.route("/predict", methods=['GET', 'POST'])
-#@cross_origin()
+@cross_origin()
 
 def predict(called_me=True):
     try:
@@ -123,7 +125,7 @@ def predict(called_me=True):
             return ["Nothing"]
 
 @app.route("/analyze", methods=['GET', 'POST'])
-#@cross_origin()
+@cross_origin()
 
 def analyze():
     language = request.headers["language"]
