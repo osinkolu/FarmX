@@ -56,7 +56,7 @@ def easy_predict():
         easy_predict_response = {"status": bool(0),"data": ["Your location is very far from all the locations on the database"]}
         return(easy_predict_response)
     easy_predict_response = {"status": bool(1),"data": classify(raw_data)}
-    return (easy_predict_response)
+    return jsonify(easy_predict_response)
 
 @app.route("/data_dump", methods=["GET", "POST"])
 @cross_origin()
@@ -67,7 +67,7 @@ def data_dump():
     print(coordinates)
     easy = easy_parameter_finders()
     raw_data = easy.dump_all_data(coordinates)
-    return (raw_data)
+    return jsonify(raw_data)
 
 
 if __name__ =="__main__":
