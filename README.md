@@ -19,21 +19,24 @@ For API support, please reach out on [LinkedIn](https://www.linkedin.com/in/oluf
 
 ## Basic Authentication
 
+* Python
+
 Accesss to the API is granted freely, there is no authentication put in place currently
 
 ``` POST
     requests.post(
-        url, files={'image': open('image.JPG', 'rb')}, headers = {
+        url, files={'image': open('image.JPG', 'rb')}, payload = {
             'threshold': '0.5',
             'usecase': 'crop_disease',
             'language': 'en'
-        }) 
+        }, headers = {}) 
 ```
 
 ## API Versioning
 There will be subsequent versions of this API as frameworks change, models update, use cases expand and as it gets better. However, the API version you wish to access in the format `v{version_number}`
 
-Currently version 1 of the API (most current) is hosted on **GCP** and accessible via: https://cropanalysis-zc6ytsujkq-uw.a.run.app/
+Currently version 1 of the API (most current) is hosted on **GCP** and accessible via: https://crop-analysis-gzhmfjnevq-uc.a.run.app/
+
 
 ## HTTP requests
 All API requests are made by sending a secure HTTPS request using one of the following methods, depending on the action being taken:
@@ -41,7 +44,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 * `POST` Create a resource
 * `GET` Get a resource or list of resources
 
-Please note that the headers are important to pass the use case, language and the threshold to setup the models.
+Please note that the payload is important to pass the use case, language and the threshold to setup the models.
 
 ## HTTP Responses
 The response is very basic, there are two major end points in this project.
