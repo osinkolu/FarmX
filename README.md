@@ -18,7 +18,7 @@ For API support, please reach out on [LinkedIn](https://www.linkedin.com/in/oluf
 
 Accesss to the API is granted freely, there is no authentication put in place currently
 
-The API has been deployed on **GCP** with CI-CD. It is accessible via: https://croprecommendation-zc6ytsujkq-uw.a.run.app/ you'll need to post your input Json format. 
+The API has been deployed on **GCP** with CI-CD. It is accessible via: https://crop-recommendation-gzhmfjnevq-uc.a.run.app you'll need to post your input Json format. 
 
 There are two formats.
 
@@ -154,7 +154,7 @@ returns a heavy json dump of all the data tracked at the backend.
 There will be subsequent versions of this API as frameworks change, models update, use cases expand and as it gets better. However, the API version you wish to access in the format `v{version_number}`
 
 Currently version 1 of the API (most current) is accessible via:
-[this link](https://croprecommendation-zc6ytsujkq-uw.a.run.app/)
+[this link](https://crop-recommendation-gzhmfjnevq-uc.a.run.app/)
 
 ## HTTP requests
 All API requests are made by sending a secure HTTPS request using one of the following methods, depending on the action being taken:
