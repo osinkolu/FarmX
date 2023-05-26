@@ -56,4 +56,4 @@ The farmX project is released under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or questions, you can reach out to the project maintainer at [email@example.com](mailto:email@example.com).
+For any inquiries or questions, you can reach out to Victor on Linkedin [Olufemi Victor](https://www.linkedin.com/in/olufemi-victor-tolulope/).
