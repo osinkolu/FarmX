@@ -1,4 +1,4 @@
-# farmX IoT Device
+# FarmX IoT Device
 
 The farmX IoT Device is designed to monitor environmental parameters for farming purposes. This README provides an overview of the project, its features, hardware setup, and instructions for getting started.
 
