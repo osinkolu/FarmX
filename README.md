@@ -10,7 +10,7 @@ The project consists of Four main components, each in a separate branch (for the
 
 * crop-disease-detector: This branch contains the code for the crop disease detector. It is built using Python and TensorFlow, and utilizes a deep learning model (Efficientnet) trained on a large dataset of crop images to identify common crop diseases, then we provide recommendations for treatment. https://github.com/osinkolu/FarmX/tree/CropAnalysis 
 
-* mobile-app: This branch contains the code for the FarmX mobile app. It is built using the Flutter framework, and allows farmers to access the crop recommender system and crop disease detector from their mobile devices. The app also includes features such as Marketplace, Order book, market prices, and a community forum for farmers to advertise, connect and sell. https://github.com/osinkolu/FarmX/tree/Mobile-App
+* mobile-app: This branch contains the code for the FarmX mobile app. It is built using the Flutter framework, and allows farmers to access the crop recommender system and crop disease detector from their mobile devices. The app also includes features such as Marketplace, Order book, market prices, and a community forum for farmers to advertise, connect and sell, and a knowledgebase for farmers to read on regenerative farming techniques. https://github.com/osinkolu/FarmX/tree/Mobile-App
 
 * IoT: This Branch contains all the details about the FarmX IoT device (Prototype) and full codes for reproducibility. The IoT device enables farmers to be more precise about thier farm climate and soil data. https://github.com/osinkolu/FarmX/tree/IoT
 
