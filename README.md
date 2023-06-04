@@ -4,7 +4,7 @@ FarmX is an open-source project developed for the 2023 Google Solution Challenge
 Download FarmX APK - [here](https://drive.google.com/file/d/1Tmi64gGnJCkdisvvIvoHpF-hs2tbrP5A/view?usp=sharing)
 
 ## Project Structure
-The project consists of Four main components, each in a separate branch (for the sake of deployment):
+The project consists of Five main components, Four are in a separate branch (for the sake of deployment):
 
 * crop-recommender-system: This branch contains the code for the crop recommender system. It is a machine leraaning model trained on a dataset of recommended crops and soil data to recommend the best crops to farmers based on their soil composition and environmental conditions. https://github.com/osinkolu/FarmX/tree/CropRecommendation
 
@@ -13,6 +13,8 @@ The project consists of Four main components, each in a separate branch (for the
 * mobile-app: This branch contains the code for the FarmX mobile app. It is built using the Flutter framework, and allows farmers to access the crop recommender system and crop disease detector from their mobile devices. The app also includes features such as Marketplace, Order book, market prices, and a community forum for farmers to advertise, connect and sell. https://github.com/osinkolu/FarmX/tree/Mobile-App
 
 * IoT: This Branch contains all the details about the FarmX IoT device (Prototype) and full codes for reproducibility. The IoT device enables farmers to be more precise about thier farm climate and soil data. https://github.com/osinkolu/FarmX/tree/IoT
+
+* Wiki: The Wiki is a website wrapped inside of our Flutter APP. The Wiki is built specially for learning, blogposts and articles that farmers can use to learn new developments in agriculture and regenerative ways to farm
 
 ## Getting Started
 
@@ -27,6 +29,9 @@ To get started with FarmX, follow these steps:
 ## Technology Stack.
 
 ![Stack](stack.png)
+
+## Flow Chart.
+![Flow](flow_chart_farmx.png)
 
 
 ## Contributing
