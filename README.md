@@ -2,7 +2,7 @@
 **Developed with Flutter and Getx State-Management system.**
 Download APK - [here](https://drive.google.com/file/d/1Tmi64gGnJCkdisvvIvoHpF-hs2tbrP5A/view?usp=sharing)
 
-FarmX is a mobile application that leverages Artificial Intelligence (AI) and Machine Learning (ML) to improve food security and reduce food waste and loss in Sub-Saharan Africa.
+FarmX is a mobile application that leverages Internet of Things (IoT) Artificial Intelligence (AI) and Machine Learning (ML) to improve food security and reduce food waste and loss in Sub-Saharan Africa and beyond.
 
 ## Description
 The mobile application is designed to help farmers in Sub-Saharan Africa reduce food waste and loss while promoting sustainable and regenerative agriculture practices. The application leverages AI and ML to provide farmers with tools for detecting crop diseases, recommending the best crops to plant based on their soil composition, and optimizing their farming practices.
@@ -13,12 +13,15 @@ The mobile application is designed to help farmers in Sub-Saharan Africa reduce 
 * Farm management tools - enables farmers to track their farming activities and optimize their operations.
 * Weather forecast - provides farmers with up-to-date weather forecasts to help them plan their farming activities.
 * Language translation - bridges the language gap by providing language translation tools for farmers.
+* IoT - get precise soil and climate data from farm.
 
 ## Technologies Used
 * Flutter - a mobile app SDK for building high-performance, high-fidelity, apps for iOS, Android, and web.
 * TensorFlow - an open-source software library for dataflow and differentiable programming across a range of tasks, including machine learning and deep learning.
 * Google Cloud Platform - a suite of cloud computing services that run on the same infrastructure that Google uses internally for its end-user products.
-*Google Translate - a machine learning-powered language translation tool that provides accurate and high-quality translations across languages.
+* Google Translate - a machine learning-powered language translation tool that provides accurate and high-quality translations across languages.
+* Firebase - Realtime database for IoT.
+
 
 ## Installation
 To install the mobile application, follow these steps:
