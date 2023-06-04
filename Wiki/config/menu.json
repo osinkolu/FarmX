@@ -1,0 +1,22 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Extensions",
+      "url": "/extensions"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Knowledgebase",
+      "url": "/"
+    },
+    {
+      "name": "Extensions",
+      "url": "/extensions"
+    }
+  ]
+}
