@@ -7,6 +7,9 @@ The farmX IoT Device is designed to monitor environmental parameters for farming
 
 The farmX IoT device was developed for the Google Solution Challenge 2023. It aims to provide an innovative solution for monitoring environmental conditions in farming applications expanding the possibilities of the FarmX application toolkit.
 
+## Stack
+
+![Stack Image](image.jpg)
 
 ## Features
 
@@ -39,7 +42,7 @@ The farmX IoT device was developed for the Google Solution Challenge 2023. It ai
    - BME280 library
    - ADS1115 library - Adafruit_ADS1X15.h
    - Mobitz ESP8266 Firebase library (version 3.9.5)
-5. Connect the hardware components according to the provided circuit diagram.
+5. Connect the hardware components according to the provided circuit diagram. check IoT schematics PDF.
 6. Open the Arduino IDE and load the project sketch (`.ino`) file.
 7. Set the appropriate configuration parameters in the sketch (e.g., WiFi credentials, Firebase database details).
 8. Compile and upload the sketch to the ESP8266 microcontroller.
@@ -48,7 +51,7 @@ The farmX IoT device was developed for the Google Solution Challenge 2023. It ai
 
 ## Contributing
 
-Contributions to the farmX project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository. You can also submit pull requests with your proposed changes.
+Maybe after the Solution Challenge - Contributions to the farmX project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on the GitHub repository. You can also submit pull requests with your proposed changes.
 
 ## License
 
@@ -56,4 +59,9 @@ The farmX project is released under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or questions, you can reach out to Victor on Linkedin [Olufemi Victor](https://www.linkedin.com/in/olufemi-victor-tolulope/).
+For any inquiries or questions, you can reach out to FarmX team lead Victor on Linkedin [Olufemi Victor](https://www.linkedin.com/in/olufemi-victor-tolulope/) or any of the contributors.
+
+## Images
+Inside the IoT device prototype
+
+![The_IoT_device](Prototype.JPG)
