@@ -27,6 +27,10 @@ The farmX IoT device was developed for the Google Solution Challenge 2023. It ai
 - ADS1115: Analog-to-digital converter for expanding analog input pins.
 - Other necessary components (e.g., resistors, wires, breadboard, power supply).
 
+## Stack
+
+![IoT Schematics](schematics.png)
+
 ## Dependencies
 
 - Arduino IDE (Version 1.8.19)
