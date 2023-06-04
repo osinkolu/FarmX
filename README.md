@@ -121,8 +121,8 @@ View on TFHub: https://tfhub.dev/tensorflow/lite-model/efficientdet/lite4/detect
 
 Open Source Dataset: https://public.roboflow.com/object-detection/plantdoc
 
-[Data Distribution](dataset_info.jpg)
+![Data Distribution](dataset_info.jpg)
 
-[Class Distribution](classdist.jpg)
+![Class Distribution](classdist.jpg)
 
 
