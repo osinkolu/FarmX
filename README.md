@@ -111,7 +111,18 @@ Each response will be returned with one of the following HTTP status codes:
 * `500` `Server Error` An error on the server occurred
 * There are also tons of responses (well explained) which could be returned due to errors flagged on inference.
 
-## Model Information(coming soon):
+## Model Information:
 
-The information of each A.I model training will be made available, including the carbon footprint.
+EfficientDet-Lite4 Object detection model (EfficientNet-Lite4 backbone with BiFPN feature extractor, shared box predictor and focal loss), trained on COCO 2017 dataset, optimized for TFLite, designed for performance on mobile CPU, GPU, and EdgeTPU.
+
+View on TFHub: https://tfhub.dev/tensorflow/lite-model/efficientdet/lite4/detection/default/2
+
+## Dataset
+
+Open Source Dataset: https://public.roboflow.com/object-detection/plantdoc
+
+[Data Distribution](dataset_info.jpg)
+
+[Class Distribution](classdist.jpg)
+
 
