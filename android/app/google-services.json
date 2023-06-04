@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "204514613386",
+    "firebase_url": "https://farmx-60901-default-rtdb.firebaseio.com",
+    "project_id": "farmx-60901",
+    "storage_bucket": "farmx-60901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204514613386:android:7f237c2eed2682b08db573",
+        "android_client_info": {
+          "package_name": "com.example.agrotech_hackat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204514613386-292mll4p04j5gg3o4h3ri5de9oj8g0b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkv3L7AFbuCDO-yCHvh8j1Ml5hF2_GUXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204514613386-292mll4p04j5gg3o4h3ri5de9oj8g0b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

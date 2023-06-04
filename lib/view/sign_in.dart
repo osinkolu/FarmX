@@ -6,7 +6,7 @@ import 'package:agrotech_hackat/widgets/title_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../constants/colors.dart';
-import '../controller/userController.dart';
+import 'signup pages/controller.dart';
 
 class LogIn extends StatefulWidget {
   const LogIn({Key? key}) : super(key: key);
@@ -21,15 +21,11 @@ class _LogInState extends State<LogIn> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   bool isLoading = false;
-  _submit() async {
-    setState(() {
-      isLoading = true;
-    });
-    String email = emailController.text;
+  FirebaseController controller =
+      Get.put(FirebaseController(), permanent: true);
 
-    String password = passwordController.text;
-
-    UserController().logIn(email, password);
+  _submit() {
+    controller.signIn(emailController.text, passwordController.text);
   }
 
   @override

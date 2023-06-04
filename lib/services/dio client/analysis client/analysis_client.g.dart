@@ -13,7 +13,7 @@ class _ApiClient implements ApiClient {
     this._dio, {
     this.baseUrl,
   }) {
-    baseUrl ??= 'https://cropanalysis-zc6ytsujkq-uw.a.run.app/';
+    baseUrl ??= 'https://crop-analysis-gzhmfjnevq-uc.a.run.app/';
   }
 
   final Dio _dio;
@@ -28,14 +28,7 @@ class _ApiClient implements ApiClient {
     const _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _headers = <String, dynamic>{};
-    final _data = FormData();
-    _data.files.add(MapEntry(
-      'image',
-      MultipartFile.fromFileSync(
-        files.path,
-        filename: files.path.split(Platform.pathSeparator).last,
-      ),
-    ));
+    final _data = predictionBody;
     final _result = await _dio
         .fetch<Map<String, dynamic>>(_setStreamType<PredictResponse>(Options(
       method: 'POST',
@@ -50,7 +43,6 @@ class _ApiClient implements ApiClient {
               data: _data,
             )
             .copyWith(baseUrl: baseUrl ?? _dio.options.baseUrl)));
-
     final value = PredictResponse.fromJson(_result.data!);
     return value;
   }
@@ -63,14 +55,7 @@ class _ApiClient implements ApiClient {
     const _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _headers = <String, dynamic>{};
-    final _data = FormData();
-    _data.files.add(MapEntry(
-      'image',
-      MultipartFile.fromFileSync(
-        files.path,
-        filename: files.path.split(Platform.pathSeparator).last,
-      ),
-    ));
+    final _data = predictionBody;
     final _result = await _dio
         .fetch<Map<String, dynamic>>(_setStreamType<AnalyseResponse>(Options(
       method: 'POST',

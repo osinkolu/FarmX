@@ -1,4 +1,14 @@
 # This is a generated file; do not edit or check into version control.
+cloud_firestore=/Users/nimi/.pub-cache/hosted/pub.dev/cloud_firestore-4.8.0/
+cloud_firestore_web=/Users/nimi/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.6.0/
+firebase_auth=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_auth-4.6.2/
+firebase_auth_web=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_auth_web-5.5.2/
+firebase_core=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_core-2.13.1/
+firebase_core_web=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_core_web-2.5.0/
+firebase_database=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_database-10.2.2/
+firebase_database_web=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_database_web-0.2.3+2/
+firebase_storage=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_storage-11.2.2/
+firebase_storage_web=/Users/nimi/.pub-cache/hosted/pub.dev/firebase_storage_web-3.6.2/
 flutter_google_places_sdk=/Users/nimi/.pub-cache/hosted/pub.dev/flutter_google_places_sdk-0.3.2+6/
 flutter_google_places_sdk_android=/Users/nimi/.pub-cache/hosted/pub.dev/flutter_google_places_sdk_android-0.1.2+5/
 flutter_google_places_sdk_ios=/Users/nimi/.pub-cache/hosted/pub.dev/flutter_google_places_sdk_ios-0.1.2+3/
@@ -28,3 +38,6 @@ permission_handler=/Users/nimi/.pub-cache/hosted/pub.dev/permission_handler-10.2
 permission_handler_android=/Users/nimi/.pub-cache/hosted/pub.dev/permission_handler_android-10.2.0/
 permission_handler_apple=/Users/nimi/.pub-cache/hosted/pub.dev/permission_handler_apple-9.0.8/
 permission_handler_windows=/Users/nimi/.pub-cache/hosted/pub.dev/permission_handler_windows-0.1.2/
+webview_flutter=/Users/nimi/.pub-cache/hosted/pub.dev/webview_flutter-4.2.1/
+webview_flutter_android=/Users/nimi/.pub-cache/hosted/pub.dev/webview_flutter_android-3.7.1/
+webview_flutter_wkwebview=/Users/nimi/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.4.4/

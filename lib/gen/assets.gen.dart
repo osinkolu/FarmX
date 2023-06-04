@@ -130,12 +130,15 @@ class $AssetsSvgsGen {
 class Assets {
   Assets._();
 
+  static const String analysis = 'assets/analysis.json';
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const String iot = 'assets/iot.json';
   static const AssetGenImage logo = AssetGenImage('assets/logo.png');
+  static const String plantRecommendation = 'assets/plant-recommendation.json';
   static const $AssetsSvgsGen svgs = $AssetsSvgsGen();
 
   /// List of all assets
-  List<AssetGenImage> get values => [logo];
+  List<dynamic> get values => [analysis, iot, logo, plantRecommendation];
 }
 
 class AssetGenImage {

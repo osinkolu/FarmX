@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>204514613386-as7ufrv4ggl5ntc725t2be9eunt3ogr2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.204514613386-as7ufrv4ggl5ntc725t2be9eunt3ogr2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB7aM9Bi7Tl2p6co7ATFMfNhNDrCJRHpjs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>204514613386</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.agrotechHackat</string>
+	<key>PROJECT_ID</key>
+	<string>farmx-60901</string>
+	<key>STORAGE_BUCKET</key>
+	<string>farmx-60901.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:204514613386:ios:2ed2b327e83551a88db573</string>
+	<key>DATABASE_URL</key>
+	<string>https://farmx-60901-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

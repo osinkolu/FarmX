@@ -42,10 +42,19 @@ dependencies:
   flutter_google_places_sdk: ^0.3.2+6
   location: ^4.4.0
   permission_handler: ^10.2.0
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  get_storage:
+  webview_flutter: ^4.0.1
+  lottie: 
+
 
 
 
   cupertino_icons: ^1.0.2
+  firebase_database: ^10.2.2
 
 dev_dependencies:
   flutter_test:

@@ -1,12 +1,14 @@
 import 'package:agrotech_hackat/constants/colors.dart';
 import 'package:agrotech_hackat/view/dashboard.dart';
-import 'package:agrotech_hackat/view/orders.dart';
 import 'package:agrotech_hackat/view/product_feed.dart';
 import 'package:agrotech_hackat/view/scan.dart';
 import "package:flutter/material.dart";
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 
 import '../size_config.dart';
+import 'signup pages/controller.dart';
+import 'webview page/webviewpage.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({Key? key}) : super(key: key);
@@ -37,17 +39,26 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   final List<String> title = ["Home", "Orders", "Store", "Prediction"];
 
+  FirebaseController controller = Get.put(FirebaseController());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       // drawer: const DrawerPage(),
       body: SizedBox.expand(
         child: PageView(
+          pageSnapping: false,
+          physics: const NeverScrollableScrollPhysics(),
           controller: _pageController,
           onPageChanged: (index) {
             setState(() => _currentIndex = index);
           },
-          children: const <Widget>[Scan(), Orders(), Feed(), Dashboard()],
+          children: const <Widget>[
+            Dashboard(), Scan(), //Orders(),
+            Feed(),
+            WebViewPage(
+                title: "Knowledge base", uri: "https://farmxwiki.netlify.app")
+          ],
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -67,27 +78,38 @@ class _BottomNavBarState extends State<BottomNavBar> {
         },
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            label: 'Prediction',
+            label: 'Home',
             icon: Padding(
               padding: const EdgeInsets.only(bottom: 5),
               child: SvgPicture.asset(
-                "assets/svgs/Vector.svg",
-                semanticsLabel: 'Product',
+                "assets/svgs/Home.svg",
+                semanticsLabel: 'home',
                 color: _currentIndex == 0 ? black : grey,
               ),
             ),
           ),
           BottomNavigationBarItem(
-            label: "Orders",
+            label: 'Tools',
             icon: Padding(
               padding: const EdgeInsets.only(bottom: 5),
               child: SvgPicture.asset(
-                "assets/svgs/Vector2.svg",
-                semanticsLabel: 'order',
+                "assets/svgs/Vector.svg",
+                semanticsLabel: 'Product',
                 color: _currentIndex == 1 ? black : grey,
               ),
             ),
           ),
+          // BottomNavigationBarItem(
+          //   label: "Orders",
+          //   icon: Padding(
+          //     padding: const EdgeInsets.only(bottom: 5),
+          //     child: SvgPicture.asset(
+          //       "assets/svgs/Vector2.svg",
+          //       semanticsLabel: 'order',
+          //       color: _currentIndex == 2 ? black : grey,
+          //     ),
+          //   ),
+          // ),
           BottomNavigationBarItem(
             label: 'Store',
             icon: Padding(
@@ -100,16 +122,13 @@ class _BottomNavBarState extends State<BottomNavBar> {
             ),
           ),
           BottomNavigationBarItem(
-            label: 'Profile',
-            icon: Padding(
-              padding: const EdgeInsets.only(bottom: 5),
-              child: SvgPicture.asset(
-                "assets/svgs/Home.svg",
-                semanticsLabel: 'home',
-                color: _currentIndex == 3 ? black : grey,
-              ),
-            ),
-          ),
+              label: "Knowledgebase",
+              icon: Padding(
+                  padding: const EdgeInsets.only(bottom: 5),
+                  child: Icon(
+                    Icons.book,
+                    color: _currentIndex == 3 ? black : grey,
+                  ))),
         ],
       ),
     );

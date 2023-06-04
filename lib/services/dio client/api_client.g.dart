@@ -13,7 +13,7 @@ class _ApiClient implements ApiClient {
     this._dio, {
     this.baseUrl,
   }) {
-    baseUrl ??= 'https://croprecommendation-zc6ytsujkq-uw.a.run.app/';
+    baseUrl ??= 'https://crop-recommendation-gzhmfjnevq-uc.a.run.app/';
   }
 
   final Dio _dio;

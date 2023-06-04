@@ -16,10 +16,10 @@ abstract class ApiClient {
   @POST("predict")
   @MultiPart()
   Future<PredictResponse> predictRequest(
-      @Part(name: "image") File files, @Headers() predictionBody);
+      @Part(name: "image") File files, @Body() predictionBody);
 
   @POST("analyze")
   @MultiPart()
   Future<AnalyseResponse> analysRequest(
-      @Part(name: "image") File files, @Headers() predictionBody);
+      @Part(name: "image") File files, @Body() predictionBody);
 }

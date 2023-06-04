@@ -49,9 +49,9 @@ class ClientsRepository extends GetxController {
 
       var headers = userDetails;
       var request = http.MultipartRequest('POST',
-          Uri.parse('https://cropanalysis-zc6ytsujkq-uw.a.run.app/analyze'));
+          Uri.parse('https://crop-analysis-gzhmfjnevq-uc.a.run.app/analyze'));
       request.files.add(await http.MultipartFile.fromPath('image', file.path));
-      request.headers.addAll(userDetails);
+      request.fields.addAll(userDetails);
 
       http.StreamedResponse response = await request.send();
 
