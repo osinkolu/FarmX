@@ -1,5 +1,6 @@
 # FarmX Mobile App
-_Developed with Flutter and Getx State-Management system._
+**Developed with Flutter and Getx State-Management system.**
+Download APK - [here](https://drive.google.com/file/d/1Tmi64gGnJCkdisvvIvoHpF-hs2tbrP5A/view?usp=sharing)
 
 FarmX is a mobile application that leverages Artificial Intelligence (AI) and Machine Learning (ML) to improve food security and reduce food waste and loss in Sub-Saharan Africa.
 
