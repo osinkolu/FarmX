@@ -1,0 +1,21 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 490188592902.dkr.ecr.us-east-1.amazonaws.com
+      - echo Logged in to Amazon ECR successfully
+
+  build:
+    commands:
+      - echo Building Docker Image for Flask Application
+      - docker build -t cropanalysis .
+      - echo Image built successfully
+
+  post_build:
+    commands:
+      - echo Tagging Flask Docker image
+      - docker tag cropanalysis:latest 490188592902.dkr.ecr.us-east-1.amazonaws.com/cropanalysis:latest
+      - docker push 490188592902.dkr.ecr.us-east-1.amazonaws.com/cropanalysis:latest
+      - echo Flask image pushed to ECR
